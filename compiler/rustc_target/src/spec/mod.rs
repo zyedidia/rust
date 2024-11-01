@@ -1731,6 +1731,9 @@ supported_targets! {
     ("wasm32-wasip1-threads", wasm32_wasip1_threads),
     ("wasm64-unknown-unknown", wasm64_unknown_unknown),
 
+    ("x86_64-lfi-linux-musl", x86_64_lfi_linux_musl),
+    ("aarch64-lfi-linux-musl", aarch64_lfi_linux_musl),
+
     ("thumbv6m-none-eabi", thumbv6m_none_eabi),
     ("thumbv7m-none-eabi", thumbv7m_none_eabi),
     ("thumbv7em-none-eabi", thumbv7em_none_eabi),

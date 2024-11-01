@@ -37,6 +37,8 @@ pub struct Finder {
 #[cfg(not(feature = "bootstrap-self-test"))]
 const STAGE0_MISSING_TARGETS: &[&str] = &[
     // just a dummy comment so the list doesn't get onelined
+    "aarch64-lfi-linux-musl",
+    "x86_64-lfi-linux-musl",
 ];
 
 /// Minimum version threshold for libstdc++ required when using prebuilt LLVM
